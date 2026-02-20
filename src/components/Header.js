@@ -60,7 +60,7 @@ export default function Header(props) {
           <Image src="/images/demo.svg" height={88} width={88} />
         </div>
       </header>
-
+      <h1class="font-bold py-4">HashiCups</h1>
       <Account accountVisible={props.accountVisible} setAccountVisible={props.setAccountVisible} isAuthed={props.isAuthed} setIsAuthed={props.setIsAuthed} username={props.username} setUsername={props.setUsername} token={props.token} setToken={props.setToken} />
     </>
   )
