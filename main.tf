@@ -1,7 +1,7 @@
 terraform {
   cloud {
     hostname     = "app.terraform.io"
-    organization = "legarasis"
+    organization = "Legarasis"
     workspaces {
       tags = ["hashicupsBackend"]
     }
